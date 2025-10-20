@@ -1,0 +1,41 @@
+.humanInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    background: var(--human-info-dark);
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    padding: 10px 40px 10px 10px;
+    margin: 5px 0;
+}
+
+.humanInfo img {
+    width: 30px;
+    height: 40px;
+}
+
+.section {
+    background-color: var(--labels-gray-color);
+    padding: var(--default-padding-label);
+    width: 100%;
+    border-radius: var(--default-border-radius);
+}
+
+.peopleContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.header>* {
+    padding: 10px 0;
+}
+
+@media (min-width: 900px) {
+    .peopleContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

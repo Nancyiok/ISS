@@ -1,0 +1,41 @@
+.error {
+    background-color: var(--error-message-bg-color);
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    border-radius: 10px;
+    border: var(--error-border-line);
+    padding: 16px;
+    animation-name: appearance;
+    animation-duration: 2s;
+    height: 50vh;
+    box-shadow: var(--box-shadow-error);
+    border-radius: var(--default-border-radius);
+}
+
+.title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.2rem;
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+}
+
+@keyframes appearance {
+    from {
+        opacity: 0;
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

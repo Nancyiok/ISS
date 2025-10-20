@@ -1,0 +1,27 @@
+.section {
+    background-color: var(--labels-gray-color);
+    border-radius: var(--default-border-radius);
+    padding: var(--default-padding-label);
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: baseline;
+    margin-left: auto;
+    padding: 0 0 30px 0;
+}
+
+.coordsList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 10px;
+}
+
+dd {
+    font-weight: 600;
+}

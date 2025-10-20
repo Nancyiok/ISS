@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background-color: var(--header-bg-color);
+  border: 1px solid var(--boarder-light-color);
+  border-radius: var(--default-border-radius);
+  padding: 10px 30px;
+  margin: 20px auto;
+  box-shadow: var(--box-shadow-light);
+}

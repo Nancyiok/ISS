@@ -1,0 +1,36 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--labels-gray-color);
+    padding: var(--default-padding-label);
+    width: 100%;
+    border-radius: var(--default-border-radius);
+    height: min-content;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+time {
+    font-family: Montserrat, sans-serif;
+    color: var(--light-text-color);
+    margin: 20px 0;
+}
+
+time>span {
+    background-color: var(--clock-bg-label);
+    padding: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    color: var(--time-black-font-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif
+}

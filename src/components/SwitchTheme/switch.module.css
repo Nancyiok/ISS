@@ -1,0 +1,24 @@
+.switch {
+    padding: 10px;
+    cursor: pointer;
+    animation-name: appearance;
+    animation-duration: 4s;
+    width: 70px;
+    height: 70px;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+}
+
+@keyframes appearance {
+    from {
+        opacity: 0;
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

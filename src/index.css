@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-dark-color: #000000;
+  --header-bg-color: #000000;
+  --boarder-light-color: #ffffff;
+  --light-text-color: #ffffff;
+  --box-shadow-light: 4px 4px 40px 6px rgba(255, 255, 255, 0.25);
+  --clock-bg-label: #ffffff;
+  --time-black-font-color: #000000;
+  --main-section-bg-color: #1A1B1D;
+  --default-padding-label: 10px;
+  --default-border-radius: 30px;
+  --labels-gray-color: rgba(40, 44, 53, 0.7);
+  --human-info-dark: rgba(253, 253, 255, 0.18);
+  --error-message-bg-color: rgba(91, 30, 30, 0.3);
+  --box-shadow-error: 2px 2px 20px 2px rgba(185, 119, 119, 0.41);
+  --error-border-line: 1px solid #4c0606;
+  --footer-bg-color: #ffffff;
+  --footer-text-color: #000000;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body.light-theme {
+  --body-dark-color: #ffffff;
+  --header-bg-color: #403c3c81;
+  --boarder-light-color: #000000;
+  --light-text-color: #000000;
+  --box-shadow-light: 4px 4px 40px 6px rgba(0, 0, 0, 0.311);
+  --clock-bg-label: #000000;
+  --time-black-font-color: #ffffff;
+  --main-section-bg-color: #ffffff;
+  --labels-gray-color: rgba(100, 100, 100, 0.7);
+  --human-info-dark: rgba(0, 0, 0, 0.1);
+  --error-message-bg-color: rgba(217, 137, 137, 0.54);
+  --error-border-line: 1px solid #951b1b;
+  --box-shadow-error: 2px 2px 25px 2px rgba(84, 30, 30, 0.41);
+}
+
+body {
+  background-color: var(--body-dark-color);
+}
+
+h1,
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--light-text-color);
+}
+
+
+h1 {
+  font-size: 0.9rem;
+  transition: font-size 0.3s ease;
+}
+
+h2 {
+  font-size: 0.8rem;
+  transition: font-size 0.3s ease;
+}
+
+p,
+li,
+dl {
+  font-size: 0.7rem;
+  transition: font-size 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  p,
+  li,
+  dl {
+    font-size: 0.9rem;
+  }
+}
+
+p,
+span,
+li,
+dl {
+  font-family: Montserrat, sans-serif;
+  color: var(--light-text-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
